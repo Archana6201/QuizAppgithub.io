@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <p id="timer"></p>
+    <div id="scoreDiv">
+        <i id="trophy" class="fas fa-trophy"></i>
+        <p id="score"></p>
+        <div id="background-wrap">
+            <div class="bubble x1"></div>
+            <div class="bubble x2"></div>
+            <div class="bubble x3"></div>
+            <div class="bubble x4"></div>
+            <div class="bubble x5"></div>
+            <div class="bubble x6"></div>
+            <div class="bubble x7"></div>
+            <div class="bubble x8"></div>
+            <div class="bubble x9"></div>
+            <div class="bubble x10"></div>
+        </div>
+    </div>
+    <div id="loginDiv" class="loginDiv">
+        <input type="text" id="name" placeholder="Enter Your name">
+        <br>
+        <input type="text" id="rollNo" placeholder="Your Roll Number">
+        <br>
+        <button id="start">Start Quiz</button>
+    </div>
+    <div class="mainDiv">
+        <div class="userDiv">
+            <div><i class="fas fa-user-circle"></i></div>
+            <h3 id="userName"></h3>
+            <h4 id="userId"></h4>
+            <div id="quesBox">
+             <!--<div></div>
+                    -->
+            </div>
+            <button id="submitBtn">Submit</button>
+        </div>
+        <div class="quesDiv" id="app">
+            <!--<div>
+                        <h1>Question</h1>
+                        <div  option>  
+                            <div>op1</div>
+                            <div>op2</div>
+                            <div>op3</div>
+                            <div>op4</div>
+                        </div>
+                    </div>-->
+        </div>
+    </div>
+    <div id="btnDiv">
+    <button id="review">REVIEW</button>
+    <button id="previous">PREVIOUS</button>
+    <button id="next">NEXT</button>
+     </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
